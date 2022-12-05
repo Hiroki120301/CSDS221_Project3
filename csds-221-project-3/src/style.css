@@ -1,0 +1,73 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+}
+
+#board{
+    width: 400px;
+    height: 400px;
+    border: 10px solid aqua;
+    background-color:  lightblue;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div{
+    width: 48px;
+    height: 48px;
+    border: 1px solid whitesmoke;
+
+    /* Text */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked{
+    background: aqua;
+}
+
+.x1 {
+    color: red;
+}
+
+.x2 {
+    color: gray;
+}
+
+.x3 {
+    color: green;
+}
+
+.x4 {
+    color: black;
+}
+
+.x5 {
+    color: brown;
+}
+
+.x6 {
+    color: darkmagenta;
+}
+
+.x7 {
+    color: lightcoral;
+}
+
+.x8 {
+    color: greenyellow;
+}
+
+#flag-button{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: aqua;
+    border: none;
+}
